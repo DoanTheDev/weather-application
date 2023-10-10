@@ -17,11 +17,11 @@ searchBtn.addEventListener('click',function() {
        const humidityValue = data['main']['humidity'];
        const rainValue = data['rain'];
        
+     
        if (rainValue === undefined){
          rain.style.display = "none"
       }
-      
-      city.innerhtml ="City: " + cityValue
+      city.innerHTML ="City: " + cityValue
       temp.innerHTML = Math.trunc(tempValue) + "&#176F"
       humidity.innerHTML ="Humidity: " + humidityValue + "%"  
       rain.innerHTML = "Precipitation: " + Math.trunc(rainValue) + "%"
