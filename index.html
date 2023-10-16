@@ -9,16 +9,19 @@
 
     <body>
         <form class="formContainer">
-            <input type="search" id="searchInputValue" placeholder="enter zipcode or city" > 
+            <input type="search" id="searchInputValue" placeholder="enter city,state or zipcode" > 
             <button type="button" id="searchBtn"  onclick="">Search</button>
         </form>
         <div class="displayContainer">
             <h1>Weather Forecast</h1>
+            <div id="img"></div>
+            <div id="description"></div>
             <div id="city"></div>
             <div id="temp"></div>
             <div id="rain"></div>
             <div id="humidity"></div>
-        </div>    
+        </div>
+        
         <script src="scripts.js"></script>
     </body>
 
