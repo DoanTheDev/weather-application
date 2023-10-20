@@ -25,7 +25,7 @@ const descript = document.getElementById('description')
         humidity.innerHTML = "Humidity: " + humidityValue + "%"  
        }
         )
-     .catch( error => alert('not a valid input'))  
+     .catch( err => alert('not a valid input'))  
       
   
   })
