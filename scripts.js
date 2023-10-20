@@ -23,9 +23,9 @@ const descript = document.getElementById('description')
         city.innerHTML = "City: " + cityValue
         temp.innerHTML = Math.trunc(tempValue) + "&#176F"
         humidity.innerHTML = "Humidity: " + humidityValue + "%"  
-        .catch(error => alert('not a valid input'))
-      }
+       }
         )
+       .catch(error => alert('not a valid input'))  
       
   
   })
