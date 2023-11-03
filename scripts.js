@@ -25,7 +25,7 @@ const descript = document.getElementById('description')
         humidity.innerHTML = "Humidity: " + humidityValue + "%"  
        }
         )
-     .catch( err => alert('not a valid input'))  
+     .catch( err => alert('Please enter a valid zipcode or state'))  
       
   
   })
