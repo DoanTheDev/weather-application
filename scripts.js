@@ -10,7 +10,6 @@ const descript = document.getElementById('description')
     searchBtn.addEventListener('click',function() {
       fetch('https://api.openweathermap.org/data/2.5/weather?q='+searchInputValue.value +',US&appid=24ebeba4d6a4f1c2c6aa3fe9c59b9f0b&units=imperial')
       .then( response => response.json())
-
       .then( data => {
         const cityValue = data['name']
         const tempValue = data['main']['temp']
